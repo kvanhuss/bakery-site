@@ -1,0 +1,34 @@
+.visit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 50px;
+
+  @media (min-width: 768px) {
+    padding: 100px;
+
+    .tel {
+      text-decoration: none;
+      color: $body-color;
+    }
+  }
+}
+
+.welcome {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 50px;
+
+  img {
+    max-width: 300px;
+    max-height: 200px;
+  }
+
+  @media (min-width: 768px) {
+    padding: 100px;
+  }
+}
+
+.menu {
+}

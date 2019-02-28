@@ -1,0 +1,84 @@
+header {
+  background-color: #e1eaf0; }
+
+footer {
+  background-color: #e1eaf0;
+  text-align: center;
+  padding: 30px; }
+  footer ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 24px; }
+  footer li {
+    display: inline-block;
+    margin-bottom: 8px;
+    padding: 0 16px; }
+    @media (min-width: 481px) {
+      footer li + li {
+        border-left: 1px solid; } }
+  footer a .logo-sm {
+    max-width: 140px; }
+  footer a.social-link {
+    text-decoration: none;
+    margin-right: 8px; }
+    footer a.social-link :last-child {
+      margin-right: 0; }
+  @media (min-width: 768px) {
+    footer a.tel {
+      text-decoration: none;
+      color: #333333; } }
+
+.clear-bottom {
+  padding-bottom: 0;
+  margin-bottom: 0; }
+
+.visit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 50px; }
+  @media (min-width: 768px) {
+    .visit {
+      padding: 100px; }
+      .visit .tel {
+        text-decoration: none;
+        color: #333333; } }
+
+.welcome {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 50px; }
+  .welcome img {
+    max-width: 300px;
+    max-height: 200px; }
+  @media (min-width: 768px) {
+    .welcome {
+      padding: 100px; } }
+
+h2 {
+  font-family: Lato;
+  font-size: 32px;
+  text-transform: uppercase; }
+
+button {
+  font-family: Lato Light;
+  font-size: 18px;
+  background: transparent;
+  border: 2px solid #000000;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 16px 24px; }
+  button.btn--white {
+    border: 2px solid #ffffff;
+    color: #ffffff; }
+
+body {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 16px;
+  margin: 0; }
+
+a {
+  color: #0093d2;
+  text-decoration: underline; }

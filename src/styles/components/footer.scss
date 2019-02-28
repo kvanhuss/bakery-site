@@ -1,0 +1,48 @@
+footer {
+  background-color: $background-grey;
+  text-align: center;
+  padding: 30px;
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1.5 * $font-size;
+  }
+
+  li {
+    display: inline-block;
+    margin-bottom: .5 * $font-size;
+    padding: 0 $font-size;
+
+    @media (min-width: 481px) {
+      + li {
+         border-left: 1px solid;
+       }
+    }
+  }
+
+
+  a {
+    .logo-sm {
+      max-width: 140px;
+    }
+
+    &.social-link {
+      text-decoration: none;
+      margin-right: .5 * $font-size;
+
+      :last-child {
+        margin-right: 0;
+      }
+    }
+
+    @media (min-width: 768px) {
+      &.tel {
+        text-decoration: none;
+        color: $body-color;
+      }
+    }
+  }
+
+
+}
