@@ -24,7 +24,8 @@ module.exports = {
                     {
                         loader: 'css-loader',
                         options: {
-                            sourceMap: true
+                            sourceMap: true,
+                            url: false
                         }
                     },
                     {
@@ -35,7 +36,12 @@ module.exports = {
                     }
                 ]
             })
-        }]
+        },
+            {
+                test: /\.(png|jpg|jpeg|gif|woff|woff2|eot|ttf|svg)$/,
+                use: 'url-loader?limit=100000'
+            },
+        ]
     },
     plugins: [
         CSSExtract,

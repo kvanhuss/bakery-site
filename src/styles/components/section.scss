@@ -16,6 +16,7 @@
 
 .welcome {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 50px;
@@ -25,10 +26,33 @@
     max-height: 200px;
   }
 
+  div {
+    max-width: 450px;
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+
   @media (min-width: 768px) {
     padding: 100px;
   }
 }
 
 .menu {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../img/menu-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0px;
+  text-align: center;
+
+  h2 {
+    color: $white;
+  }
 }

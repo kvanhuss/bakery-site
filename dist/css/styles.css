@@ -46,20 +46,36 @@ footer {
 
 .welcome {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 50px; }
   .welcome img {
     max-width: 300px;
     max-height: 200px; }
+  .welcome div {
+    max-width: 450px; }
+  .welcome button {
+    display: block;
+    margin: 0 auto; }
   @media (min-width: 768px) {
     .welcome {
       padding: 100px; } }
 
+.menu {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/menu-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0px;
+  text-align: center; }
+  .menu h2 {
+    color: #ffffff; }
+
 h2 {
   font-family: Lato;
   font-size: 32px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #000000; }
 
 button {
   font-family: Lato Light;
