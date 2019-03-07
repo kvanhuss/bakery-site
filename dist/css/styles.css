@@ -1,5 +1,22 @@
 header {
-  background-color: #e1eaf0; }
+  background-color: #e1eaf0;
+  position: relative; }
+  header h1 {
+    margin: 0;
+    text-align: center;
+    padding-top: 16px; }
+    header h1 img {
+      max-width: 150px; }
+  header::after {
+    position: absolute;
+    bottom: -50px;
+    left: 0px;
+    width: 100%;
+    content: " ";
+    background: radial-gradient(circle at 50% 0%, #e1eaf0 25%, transparent 26%, transparent 40%);
+    background-size: 50px 100px;
+    height: 50px;
+    background-repeat: repeat-x; }
 
 footer {
   background-color: #e1eaf0;
@@ -43,6 +60,9 @@ footer {
       .visit .tel {
         text-decoration: none;
         color: #333333; } }
+
+.hero-img {
+  background-size: cover; }
 
 .welcome {
   display: flex;
@@ -88,6 +108,12 @@ button {
   button.btn--white {
     border: 2px solid #ffffff;
     color: #ffffff; }
+
+nav a {
+  color: #000000;
+  font-family: Lato Light;
+  font-size: 24px;
+  text-underline: none; }
 
 body {
   color: #333333;
