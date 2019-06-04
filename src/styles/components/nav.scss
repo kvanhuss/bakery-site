@@ -1,8 +1,19 @@
 nav {
+  align-items: center;
+  display: flex;
+  padding: $font-size;
+  justify-content: center;
+
   a {
     color: $black;
     font-family: $font-family-light;
     font-size: $font-size * 1.5;
-    text-underline: none;
+    margin: $font-size;
+    text-decoration: none;
+
+  }
+
+  h1 {
+    margin: $font-size;
   }
 }

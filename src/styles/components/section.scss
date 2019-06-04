@@ -5,7 +5,7 @@
   padding: 50px;
 
   @media (min-width: 768px) {
-    padding: 100px;
+    padding: 75px;
 
     .tel {
       text-decoration: none;
@@ -15,7 +15,7 @@
 }
 
 .hero-img {
-  background-size: cover;
+  width: 100%;
 }
 
 .welcome {
@@ -28,6 +28,7 @@
   img {
     max-width: 300px;
     max-height: 200px;
+    margin: 26.56px 0;
   }
 
   div {
@@ -40,7 +41,7 @@
   }
 
   @media (min-width: 768px) {
-    padding: 100px;
+    padding: 75px;
   }
 }
 

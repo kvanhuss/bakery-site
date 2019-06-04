@@ -2,9 +2,7 @@ header {
   background-color: #e1eaf0;
   position: relative; }
   header h1 {
-    margin: 0;
-    text-align: center;
-    padding-top: 16px; }
+    display: inline; }
     header h1 img {
       max-width: 150px; }
   header::after {
@@ -56,13 +54,13 @@ footer {
   padding: 50px; }
   @media (min-width: 768px) {
     .visit {
-      padding: 100px; }
+      padding: 75px; }
       .visit .tel {
         text-decoration: none;
         color: #333333; } }
 
 .hero-img {
-  background-size: cover; }
+  width: 100%; }
 
 .welcome {
   display: flex;
@@ -72,7 +70,8 @@ footer {
   padding: 50px; }
   .welcome img {
     max-width: 300px;
-    max-height: 200px; }
+    max-height: 200px;
+    margin: 26.56px 0; }
   .welcome div {
     max-width: 450px; }
   .welcome button {
@@ -80,7 +79,7 @@ footer {
     margin: 0 auto; }
   @media (min-width: 768px) {
     .welcome {
-      padding: 100px; } }
+      padding: 75px; } }
 
 .menu {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/menu-bg.png");
@@ -109,11 +108,19 @@ button {
     border: 2px solid #ffffff;
     color: #ffffff; }
 
-nav a {
-  color: #000000;
-  font-family: Lato Light;
-  font-size: 24px;
-  text-underline: none; }
+nav {
+  align-items: center;
+  display: flex;
+  padding: 16px;
+  justify-content: center; }
+  nav a {
+    color: #000000;
+    font-family: Lato Light;
+    font-size: 24px;
+    margin: 16px;
+    text-decoration: none; }
+  nav h1 {
+    margin: 16px; }
 
 body {
   color: #333333;
