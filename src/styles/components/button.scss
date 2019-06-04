@@ -7,8 +7,18 @@ button {
   text-transform: uppercase;
   padding: $font-size (1.5 * $font-size);
 
+  &:hover {
+    background: $black;
+    color: $white;
+  }
+
   &.btn--white {
     border: 2px solid $white;
     color: $white;
+
+    &:hover {
+      background: $white;
+      color: $black;
+    }
   }
 }

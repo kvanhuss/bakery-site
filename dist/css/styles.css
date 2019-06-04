@@ -104,9 +104,15 @@ button {
   color: #000000;
   text-transform: uppercase;
   padding: 16px 24px; }
+  button:hover {
+    background: #000000;
+    color: #ffffff; }
   button.btn--white {
     border: 2px solid #ffffff;
     color: #ffffff; }
+    button.btn--white:hover {
+      background: #ffffff;
+      color: #000000; }
 
 nav {
   align-items: center;
@@ -131,3 +137,5 @@ body {
 a {
   color: #0093d2;
   text-decoration: underline; }
+  a:hover {
+    color: #333333; }

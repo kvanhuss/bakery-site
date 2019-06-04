@@ -11,4 +11,8 @@ body {
 a {
 	color: $blue;
 	text-decoration: underline;
+
+	&:hover {
+		color: $body-color;
+	}
 }
